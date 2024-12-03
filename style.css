@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.first{
+    height: 82%;
+    width: 100%;
+    background-image: url(./output.jpg);
+    background-position: center;
+    background-repeat: no repeat;
+    background-size: cover;
+    
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 25px;
+    height: 10%;
+    width: 100%;
+    /* background-color: rgb(230, 149, 149); */
+
+}
+
+.nav img{
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    margin-right: 500px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.logos{
+      height: 18%;
+      width: 10%; 
+      margin-top: 200px;
+      margin-left: 20px;  
+      /* background-color: chartreuse; */
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      justify-content: center;
+      align-items: center;
+}
+.logos .div1{
+    height: 20px;
+    width: 20px;
+    /* background-color: black; */
+    background-image: url(./instagram-line.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.logos .div2{
+    height: 20px;
+    width: 20px;
+    /* background-color: black; */
+    background-image: url(./twitter-fill.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.logos .div3{
+    height: 20px;
+    width: 20px;
+    /* background-color: black; */
+    background-image: url(./facebook-fill.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.text{
+    position: absolute;
+    height: 40%;
+    width: 40%;
+    /* background-color: rgb(60, 61, 58); */
+    top: 30%;
+    left: 18%;
+}
+#p1{
+    font-size: 60px;
+    font-weight:500;
+}
+#p2{
+    font-size: 30px;
+    font-weight: 540;
+}
+.switch{
+    margin-left: 5px;
+    margin-top: 25px;
+    padding: 5px;
+    background-color: transparent;
+    border-radius: 2px;
+    border: 2px black solid;
+    font-weight: 700;
+}
+.second{
+    display: flex;
+
+}
+.pehla{
+    height: 100px;
+    width: 33.3%;
+    background-color:rgb(140, 99, 68);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pehla p{
+    margin-left: 15px;
+}
+.dusra{
+    height: 100px;
+    width: 33.3%;
+    background-color:rgb(122, 71, 37);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dusra p{
+    margin-left: 15px;
+}
+.teesra{
+    height: 100px;
+    width: 33.3%;
+    background-color:rgb(96, 48, 18);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teesra p{
+    margin-left: 15px;
+}
+.third{
+    height: 82%;
+    width: 100%;
+    background-image: url(./fotor-ai-20241203122257.jpg);
+    background-position: center;
+    background-repeat: no repeat;
+    background-size: cover;
+    position: relative;
+}
+.focus{
+    height: 40%;
+    width: 60%;
+    /* background-color: burlywood; */
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+.one{
+    height: 100%;
+    width: 30%;
+    background-color:rgba(128, 128, 128, 0.4);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+
+}
+.two{
+    height: 100%;
+    width: 30%;
+    background-color:rgba(128, 128, 128, 0.4);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+
+}
+.three{
+    height: 100%;
+    width: 30%;
+    background-color:rgba(128, 128, 128, 0.4);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.one img{
+    height: 50%;
+}
+.one #stand{
+    font-size: 25px;
+}
+.one #lorem{
+    margin-left: 5px;
+}
+.one button{
+    background: transparent;
+    width: 75%;
+    height: 10%;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+.two img{
+    height: 50%;
+}
+.two #stand{
+    font-size: 25px;
+}
+.two #lorem{
+    margin-left: 5px;
+}
+.two button{
+    background: transparent;
+    width: 75%;
+    height: 10%;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+.three img{
+    height: 50%;
+}
+.three #stand{
+    font-size: 25px;
+}
+.three #lorem{
+    margin-left: 5px;
+}
+.three button{
+    background: transparent;
+    width: 75%;
+    height: 10%;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.fourth{
+    height: 65%;
+    width: 100%;
+    background-color: #b26f31;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+.maindiv{
+    height: 60%;
+    width: 40%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+.fourth #bath{
+    height: 40%;
+    width: 17%;
+    position: absolute;
+    top: 30%;
+    left: 7%;
+}
+.fourth #fool{
+    height: 40%;
+    width: 17%;
+    position: absolute;
+    top: 23%;
+    left: 25%;
+}
+.big{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.small{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    
+}
+.maindiv button{
+    width: 120px;
+    height: 30px;
+    background-color: transparent;
+    border-color: white;
+}
+.fifth{
+    height: 65%;
+    width: 100%;
+    background-image: url(./output\ \(3\).jpg);
+    background-position: center;
+    background-repeat: no repeat;
+    background-size: cover;
+    position: relative;
+}
+.end{
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+    top: 25%;
+    left: 38%;
+    color: black;
+}
+.endsmall{
+    font-size: 15px;
+    font-weight: 600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 55%;
+    left: 25%;
+}
